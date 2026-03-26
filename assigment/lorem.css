@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    /* font-family: Arial, sans-serif; */
+    text-align: justify;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-right: 10%; */
+    
+}
+p{
+    font-weight: 100;
+}
+.first1{
+    margin-right: 3%;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.second1{
+    margin-right: 3%;
+}
+div{
+    max-width: 60vh;
+}

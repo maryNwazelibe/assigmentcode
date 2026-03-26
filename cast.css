@@ -3,20 +3,51 @@
     margin: 0;
     box-sizing: border-box;
 }
-header, footer{
-    background-color: antiquewhite;
-}
-header h1{
-    color: blue;
-    text-align: center;
-    size: 100px;
-}
-.hd-ft{
-    background-color: rgb(135, 218, 222);
-    height: 200px;
-    border: 3px dashed red;
-    border-radius: 20px;
+body{
     padding: 10px;
+}
+header{
+    background-color: #0ad3f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.logo img{
+    border-radius: 10px;
+}
+.logo h2{
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    background-color: rgb(5, 216, 139);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+header a:hover, header a:focus{
+    text-decoration: none;
+    background-color: rgb(12, 184, 98);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+header input{
+    border: none;
+    background-color: #0ad3f7;
+    font-size: 1.2rem;
 }
 .container{
     display: flex;
